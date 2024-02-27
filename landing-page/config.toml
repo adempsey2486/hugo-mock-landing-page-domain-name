@@ -1,8 +1,7 @@
-baseURL = 'https://filipecarneiro.github.io/'
+baseURL = 'https://adempsey2486.github.io/hugo-mock-landing-page/'
 title = "OpenInventory"
 author = "Alec Dempsey"
-copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE\">MIT</a> Licensed."
-# copyright = "Open-source Inventory Management"
+copyright = "Alec Dempsey"
 
 timeZone = 'New York'
 
