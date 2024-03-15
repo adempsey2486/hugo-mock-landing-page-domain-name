@@ -26,11 +26,12 @@ jobs:
         with:
           hugo-version: "0.123.4"
           extended: true
-      - run: |
-          cd landing-page
-      - run: |
-          ls
+      - working-directory: ./landing-page/
+        run: |
+            ls
+        
       - name: 🏗️ Compile Hugo Static Files
+        working-directory: ./landing-page/
         run: hugo -D --gc --minify
 
       - name: 🚀 Publish to GitHub Pages
