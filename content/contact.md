@@ -8,4 +8,4 @@ menu:
 
 # Contact
 
-Contact at adempse@seas.upenn.edu
+Contact Alec Dempsey at adempse@seas.upenn.edu
