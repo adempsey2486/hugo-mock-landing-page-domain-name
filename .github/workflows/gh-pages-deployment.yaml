@@ -35,6 +35,7 @@ jobs:
         run: hugo -D --gc --minify
 
       - name: 🚀 Publish to GitHub Pages
+        working-directory: ./landing-page/
         uses: peaceiris/actions-gh-pages@v3.9.3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
