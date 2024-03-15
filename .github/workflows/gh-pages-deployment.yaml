@@ -26,7 +26,8 @@ jobs:
         with:
           hugo-version: "0.123.4"
           extended: true
-
+      - run: |
+          ls ${{ github.workspace }}
       - name: 🏗️ Compile Hugo Static Files
         run: hugo -D --gc --minify
 
