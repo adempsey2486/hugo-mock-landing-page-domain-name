@@ -3,7 +3,7 @@ title = "OpenInventory"
 author = "Alec Dempsey"
 copyright = "Alec Dempsey"
 
-timeZone = 'New York'
+timeZone = 'America/New_York'
 
 # Multilingual
 defaultContentLanguage = "en"
